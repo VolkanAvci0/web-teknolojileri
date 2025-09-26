@@ -329,7 +329,7 @@ footer {
 
 @media (max-width: 1000px) {
     .hero {
-        display: grid; /* flex yerine grid kullanmak daha net */
+        display: grid;
         grid-template-columns:1fr 300px
     }
 
@@ -349,6 +349,10 @@ footer {
 @media (max-width: 720px) {
     nav ul {
         display: none
+    }
+
+    header nav {
+        display: none;
     }
 
     .hamb {
